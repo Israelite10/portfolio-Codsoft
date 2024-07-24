@@ -40,8 +40,8 @@ const portfolios = [
   {
     id: 6,
     src: pic6,
-    demoLink: "https://demo-link1.com",
-    codeLink: "https://code-link1.com",
+    demoLink: "https://timbu-app-hng-stage2.vercel.app/",
+    codeLink: "https://github.com/Israelite10/Timbu-app-Hng-stage2.git",
   },
 ];
 
