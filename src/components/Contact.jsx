@@ -32,7 +32,7 @@ const Contact = () => {
               name="email"
               required
               placeholder="Enter your email"
-              className="p-2 bg-transparent my- border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent my-4 border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
