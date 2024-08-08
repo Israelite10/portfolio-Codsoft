@@ -9,12 +9,12 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 overflow-hidden"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center pt-20 h-full px-4 md:flex-row">
         <div className="flex px-10 flex-col  justify-center h-full">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mt-46 md:mt-0">
+          <h2 className="text-4xl sm:text-5xl pt-20 md:pt-0 font-bold text-white ">
             I'm Israel Bello
           </h2>
-          <p className="text-gray-300 py-4 max-w-md leading-9">
+          <p className="text-gray-300 py-4 max-w-md leading-6 ">
             I'm a Front-end developer focused on crafting clean & user-friendly
             experiences. I am passionate about building excellent software that
             improves the lives of my community and those around me.
@@ -38,7 +38,8 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-52"
+            width={250}
+            className="rounded-2xl mx-auto"
           />
         </div>
       </div>

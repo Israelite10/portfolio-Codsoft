@@ -57,7 +57,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b  from-black to-gray-800 w-full pb-0 lg:pb-64 text-white pt-0 lg:pt-56  md:h-screen"
+      className="bg-gradient-to-b  from-black to-gray-800 w-full  text-white   md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -77,7 +77,7 @@ const Portfolio = () => {
               <div className="flex flex-col items-center justify-center p-4">
                 <div className="flex items-center justify-center mb-4">
                   <button
-                    className="w-1/2 px-6 py-1 m-2 duration-200 hover:scale-105"
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                     onClick={() => handleDemoClick(demoLink)}
                   >
                     Demo
