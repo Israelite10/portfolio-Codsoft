@@ -18,7 +18,6 @@ const App = () => {
       <Experience />
       <Contact />
       <SocialLinks />
-      <Footer />
     </div>
   );
 };
