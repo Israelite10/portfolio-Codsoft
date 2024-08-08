@@ -6,6 +6,7 @@ import SocialLinks from "./components/SocialLinks";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Experience />
       <Contact />
       <SocialLinks />
+      <Footer />
     </div>
   );
 };
